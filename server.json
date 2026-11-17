@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "at.the-y/crm",
+  "title": "The-Y CRM",
+  "description": "Shared inbox for calls, WhatsApp and email: let AI set up phone, mailbox, contacts and reply drafts.",
+  "version": "1.1.68.4",
+  "websiteUrl": "https://the-y.at/en/crm/mcp/?src=mcpregistry-1117-eintrag",
+  "icons": [
+    {
+      "src": "https://the-y.at/assets/the-y-crm-icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://crm.the-y.at/api/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "authentication": "OAuth 2.1 (sign-in by click, PKCE S256, CIMD and dynamic client registration). Alternative: header 'Authorization: Bearer <API key>' or 'X-API-Key'.",
+      "documentation": "https://the-y.at/en/crm/mcp/",
+      "privacyPolicy": "https://the-y.at/en/datenschutz/#mcp",
+      "support": "office@the-y.at",
+      "selfHosted": "Self-hosted installations serve the same endpoint at https://<your-address>/api/mcp.",
+      "license": "Proprietary (hosted service and self-hostable Docker images). Not open source."
+    }
+  }
+}

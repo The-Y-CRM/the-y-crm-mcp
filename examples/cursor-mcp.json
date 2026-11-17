@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "the-y-crm": {
+      "url": "https://crm.the-y.at/api/mcp"
+    }
+  }
+}

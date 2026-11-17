@@ -1,0 +1,21 @@
+Documentation license
+
+Copyright (c) 2026 The-Y e.U., Vienna, Austria
+
+The documentation and examples in this repository are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+The logo in assets/ is not covered by this license.
+
+  Summary:   https://creativecommons.org/licenses/by/4.0/
+  Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Scope: this license applies to the contents of this repository only. This repository
+contains documentation only; it contains no source code of The-Y CRM.
+
+The-Y CRM itself (the hosted service at crm.the-y.at and the self-hostable Docker
+images) is proprietary software. It is not open source, and this license grants no
+rights to it. Use of The-Y CRM is governed by its terms:
+https://the-y.at/en/nutzungsbedingungen/
+
+"The-Y" and the The-Y logo are marks of The-Y e.U. The CC BY 4.0 license does not
+grant trademark rights.
